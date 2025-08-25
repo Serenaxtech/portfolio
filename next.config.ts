@@ -6,8 +6,6 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true
   },
-  basePath: process.env.NODE_ENV === 'production' ? '/serena-portfolio' : '',
-  assetPrefix: process.env.NODE_ENV === 'production' ? '/serena-portfolio/' : '',
 };
 
 export default nextConfig;
